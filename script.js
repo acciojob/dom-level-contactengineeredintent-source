@@ -5,4 +5,4 @@ while (target.tagName !== "HTML") {
   count++;
   target = target.parentElement;
 }
-alert(count+2);
+alert(`The level of the element is: ${count}`);
